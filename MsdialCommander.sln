@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MsdialCommander", "MsdialCommander\MsdialCommander.csproj", "{DCA04F4E-4ED9-433E-8E5B-F6CE19DFD0E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libs", "libs", "{53DCFA11-DF4C-4699-9125-EEBE5B22E412}"
+	ProjectSection(SolutionItems) = preProject
+		libs\Chromatogram.dll = libs\Chromatogram.dll
+		libs\Common.dll = libs\Common.dll
+		libs\CommonMVVM.dll = libs\CommonMVVM.dll
+		libs\Database.dll = libs\Database.dll
+		libs\DataProcessing.dll = libs\DataProcessing.dll
+		libs\IsotopeRatioCalculator.dll = libs\IsotopeRatioCalculator.dll
+		libs\MassSpectrogram.dll = libs\MassSpectrogram.dll
+		libs\Mathematics.dll = libs\Mathematics.dll
+		libs\MolecularFormulaFinder.dll = libs\MolecularFormulaFinder.dll
+		libs\MonaRestApi.dll = libs\MonaRestApi.dll
+		libs\PairwisePlot.dll = libs\PairwisePlot.dll
+		libs\RDAM_DLL.dll = libs\RDAM_DLL.dll
+		libs\System.Windows.Interactivity.dll = libs\System.Windows.Interactivity.dll
+		libs\XamlToys.dll = libs\XamlToys.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MsdialCommanderTests", "MsdialCommanderTests\MsdialCommanderTests.csproj", "{6FDD1E8F-BAC1-493B-B86C-2887DA18880E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FDD1E8F-BAC1-493B-B86C-2887DA18880E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6FDD1E8F-BAC1-493B-B86C-2887DA18880E}.Debug|x86.Build.0 = Debug|Any CPU
+		{6FDD1E8F-BAC1-493B-B86C-2887DA18880E}.Release|x86.ActiveCfg = Release|Any CPU
+		{6FDD1E8F-BAC1-493B-B86C-2887DA18880E}.Release|x86.Build.0 = Release|Any CPU
+		{DCA04F4E-4ED9-433E-8E5B-F6CE19DFD0E0}.Debug|x86.ActiveCfg = Debug|x86
+		{DCA04F4E-4ED9-433E-8E5B-F6CE19DFD0E0}.Debug|x86.Build.0 = Debug|x86
+		{DCA04F4E-4ED9-433E-8E5B-F6CE19DFD0E0}.Release|x86.ActiveCfg = Release|x86
+		{DCA04F4E-4ED9-433E-8E5B-F6CE19DFD0E0}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal
